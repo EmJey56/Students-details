@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Read, Write, Update, Delete</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="title_container">
+        <span id="content">
+          <h2 class="typedtext"></h2>
+        </span>
+        <h2 id="sub_header">Firebase Database exercise</h2>
+      </div>
+
+      <div id="form_container">
+        <input placeholder="email" type="email" id="email" />
+        <input placeholder="password" type="password" id="password" />
+        <input placeholder="Username" type="name" id="username" />
+        <input placeholder="attendance" type="text" id="attendance" />
+        <input placeholder="Character" type="text" id="character" />
+      </div>
+
+      <div id="button_container">
+        <button id="put" onclick="save()">SUBMIT</button>
+        <button id="get" onclick="get()">GET</button> <br />
+      </div>
+    </div>
+
+    <div class="details_container">
+      <label id="details"></label>
+    </div>
+
+    <div>
+      <label id="studentDetails1"></label><br />
+      <label id="studentDetails2"></label><br />
+      <label id="studentDetails3"></label><br />
+    </div>
+  </body>
+
+  <script></script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+  <script src="index.js"></script>
+</html>
